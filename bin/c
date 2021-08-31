@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+args="$@"
+
+[[ $# -eq 0 ]] && args='.'
+
+code "$args"
